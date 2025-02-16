@@ -10,7 +10,7 @@ export default function Header() {
             <div className={styles.mobileInformationBox}>
                 <address className={styles.address}><FaLocationDot style={{ marginRight: "10px" }} />Juazeiro - BA / Petrolina - PE</address>
 
-                <a href="https://wa.me/5574999393254" target="_blank">
+                <a href="https://wa.me/5574988623412" target="_blank">
                     <address className={styles.phone}>(74) 98862-3412</address>
                 </a>
             </div>
