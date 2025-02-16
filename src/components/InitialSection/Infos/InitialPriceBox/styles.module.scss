@@ -1,0 +1,48 @@
+.priceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-align: center;
+
+        .yellowSpan {
+            color: #FDD403;
+        }
+    }
+
+    .batterysBox {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+        .moura {
+            width: 162px;
+            height: 108px;
+        }
+
+        .kondor {
+            width: 142px;
+                height: 140px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .batterysBox {
+            gap: 10px;
+            .moura {
+                width: 152px;
+                height: 98px;
+            }
+
+            .kondor {
+                width: 160px;
+                height: 140px;
+            }
+        }
+    }
+}

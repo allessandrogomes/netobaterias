@@ -1,0 +1,9 @@
+.subtitle {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+    @media screen and (max-width: 500px) {
+        text-align: center;
+    }
+}

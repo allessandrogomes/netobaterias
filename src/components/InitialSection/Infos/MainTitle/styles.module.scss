@@ -1,0 +1,18 @@
+.title {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+    .blueSpan {
+        color: #36ACE9;
+    }
+
+    .yellowSpan {
+        color: #FDD403;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+}
