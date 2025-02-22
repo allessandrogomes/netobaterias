@@ -1,7 +1,15 @@
+'use client'
+
 import Card from "./Card"
 import styles from "./styles.module.scss"
 
 export default function PriceCardsSection() {
+
+    function handleContact() {
+        const message = "Olá, gostaria de comprar uma bateria."
+        window.open(`https://api.whatsapp.com/send?phone=5574988623412&text=${message}`, '_blank')
+    }
+
     return (
         <section className={styles.section}>
             <div className={styles.headerBox}>
@@ -48,7 +56,7 @@ export default function PriceCardsSection() {
 
             <div className={styles.contactBox}>
                 <h4>Precisa de outro modelo? <br/>Entre em contato conosco!</h4>
-                <button>Entrar em contato</button>
+                <button onClick={handleContact}>Entrar em contato</button>
             </div>
         </section>
     )
