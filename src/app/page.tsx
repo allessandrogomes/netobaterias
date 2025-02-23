@@ -12,6 +12,7 @@ import "@fontsource/montserrat/700.css"
 import "@fontsource/montserrat/800.css"
 import "@fontsource/montserrat/900.css"
 import PriceCardsSection from "@/components/PriceCardsSection";
+import ServicesSection from "@/components/ServicesSection";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <InitialSection />
         <PriceCardsSection />
+        <ServicesSection />
       </main>
 
       <footer></footer>

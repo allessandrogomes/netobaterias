@@ -1,0 +1,94 @@
+.section {
+    width: 100%;
+    height: 100%;
+    background: #FFD500;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+
+    .headerBox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+    }
+
+    .contentBox {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .shadowsBox {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cardsBox {
+            position: inherit;
+            z-index: 1;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .headerBox {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 0.875rem;
+            }
+        }
+
+        .contentBox {
+
+            .cardsBox {
+                gap: 75px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        padding: 50px 30px;
+
+        .contentBox {
+
+            .shadowsBox {
+                display: none;
+            }
+        }
+    }
+}
