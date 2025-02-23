@@ -48,7 +48,7 @@ export default function PriceCardsSection() {
                     title="Kondor 60Ah"
                     subtitle="Bateria F22 MPD"
                     price="334,89"
-                    priceOnCard="à vista ou até 10x de 32,99 sem juros"
+                    priceOnCard="à vista ou até 10x de 34,99 sem juros"
                     cca={430}
                     monthsOfWarranty={12}
                 />
