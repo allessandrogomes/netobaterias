@@ -14,6 +14,7 @@ import "@fontsource/montserrat/900.css"
 import PriceCardsSection from "@/components/PriceCardsSection";
 import ServicesSection from "@/components/ServicesSection";
 import CallToActionSection from "@/components/CallToActionSection";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
         <CallToActionSection />
       </main>
 
-      <footer></footer>
+      <footer><Footer /></footer>
     </>
   )
 }
