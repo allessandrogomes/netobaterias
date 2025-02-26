@@ -19,7 +19,7 @@ export default function Footer() {
             <h3 onClick={redirectToWhatsApp} className={styles.phone}><FaPhoneAlt style={{ position: "relative", top: "3px" }} /> (74) 98862-3412</h3>
             <h3 onClick={redirectToInstagram} className={styles.instagram}><FaInstagram style={{ position: "relative", top: "3px", fontSize: "18px" }} /> @netobaterias</h3>
             <h3>&copy; 2025 Neto Baterias - Todos os direitos reservados</h3>
-            <h3>Desenvolvido por <a href="https://www.valebytes.com.br/" target="_blank"><img src="/images/transparent-logo-valebytes.webp" alt="Logomarca da empresa ValeBytes" /></a></h3>
+            <h3>Desenvolvido por <a href="https://www.valebytes.com.br/" target="_blank" title="ValeBytes Site"><img src="/images/transparent-logo-valebytes.webp" alt="Logomarca da empresa ValeBytes" title="Logomarca da ValeBytes"/></a></h3>
         </div>
     )
 }
