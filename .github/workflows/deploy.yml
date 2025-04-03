@@ -1,4 +1,4 @@
-name: Build and Upload Static Files
+name: Build and Release Static Files
 
 on:
   push:
@@ -23,8 +23,18 @@ jobs:
       - name: Compactar arquivos estáticos
         run: zip -r netobaterias-estatico.zip out
 
-      - name: Publicar artefato
-        uses: actions/upload-artifact@v4
+      - name: Criar versão da release
+        id: version
+        run: echo "TAG=v1.0.$(date +%s)" >> $GITHUB_ENV
+
+      - name: Criar release no GitHub
+        uses: softprops/action-gh-release@v2
         with:
-          name: netobaterias-estatico
-          path: netobaterias-estatico.zip
+          tag_name: ${{ env.TAG }}
+          name: "Release ${{ env.TAG }}"
+          body: "Arquivos estáticos gerados automaticamente."
+          draft: false
+          prerelease: false
+          files: netobaterias-estatico.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
