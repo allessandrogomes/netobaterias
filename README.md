@@ -2,7 +2,7 @@
 
 Este repositório contém o código-fonte e os arquivos estáticos do site da Neto Baterias.
 
-[www.netobaterias.com.br](https://netobaterias.com.br)
+<a href="https://netobaterias.com.br" target="_blank">www.netobaterias.com.br</a>
 
 ## 📂 Como baixar o código
 
@@ -25,4 +25,4 @@ Para baixar a versão estática do site, acesse o link abaixo:
 
 A ValeBytes desenvolve sites modernos, rápidos e otimizados para o seu negócio. Entre em contato e leve sua presença digital para o próximo nível!
 
-[🔗 Saiba mais](https://valebytes.com.br)
+<a href="https://valebytes.com.br" target="_blank">🔗 Saiba mais</a>
