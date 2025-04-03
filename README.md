@@ -4,15 +4,9 @@ Este repositório contém o código-fonte e os arquivos estáticos do site da Ne
 
 <a href="https://netobaterias.com.br" target="_blank">www.netobaterias.com.br</a>
 
-## 📂 Como baixar o código
+## 📂 Downloads dos Arquivos
 
-1. Clique no botão "Code" no topo da página.
-2. Escolha "Download ZIP" para baixar os arquivos.
-3. Extraia o ZIP e abra os arquivos localmente.
-
-## 🌐 Como baixar os arquivos estáticos
-
-Para baixar a versão estática do site, acesse o link abaixo:
+[🔗 Download do código fonte](https://github.com/allessandrogomes/netobaterias/archive/refs/heads/main.zip)
 
 [🔗 Download dos arquivos estáticos](https://github.com/allessandrogomes/netobaterias/releases/download/v1.0.1743682653/netobaterias-estatico.zip)
 
