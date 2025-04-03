@@ -16,6 +16,7 @@ export default function Footer() {
     return (
         <div className={styles.container}>
             <h3>Atendimento 24h - Todos os dias, incluindo feriados.</h3>
+            <h3>Rua Largo Alegre, Nº 299, Bairro João XXIII, Juazeiro-BA</h3>
             <h3 onClick={redirectToWhatsApp} className={styles.phone}><FaPhoneAlt style={{ position: "relative", top: "3px" }} /> (74) 98862-3412</h3>
             <h3 onClick={redirectToInstagram} className={styles.instagram}><FaInstagram style={{ position: "relative", top: "3px", fontSize: "18px" }} /> @netobaterias</h3>
             <h3>&copy; 2025 Neto Baterias - Todos os direitos reservados</h3>
