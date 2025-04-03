@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Neto Baterias ⚡🔋 - Website
 
-## Getting Started
+Este repositório contém o código-fonte e os arquivos estáticos do site da Neto Baterias.
 
-First, run the development server:
+[www.netobaterias.com.br](https://netobaterias.com.br)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📂 Como baixar o código
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clique no botão "Code" no topo da página.
+2. Escolha "Download ZIP" para baixar os arquivos.
+3. Extraia o ZIP e abra os arquivos localmente.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Como baixar os arquivos estáticos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para baixar a versão estática do site, acesse o link abaixo:
 
-## Learn More
+[🔗 Download dos arquivos estáticos](https://github.com/allessandrogomes/netobaterias/releases/download/v1.0.1743682653/netobaterias-estatico.zip)
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Informações adicionais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Endereço da empresa: Rua Largo Alegre, Nº 299, Bairro João XXIII, Juazeiro-BA.
+- Para dúvidas ou suporte, entre em contato com contato@valebytes.com.br.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Precisa de um site profissional?
 
-## Deploy on Vercel
+A ValeBytes desenvolve sites modernos, rápidos e otimizados para o seu negócio. Entre em contato e leve sua presença digital para o próximo nível!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[🔗 Saiba mais](https://valebytes.com.br)
