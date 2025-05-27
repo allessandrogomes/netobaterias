@@ -25,8 +25,8 @@ export default function PriceCardsSection() {
                     titleImage="Bateria Moura"
                     title="Moura 60Ah"
                     subtitle="Bateria M60GD MGE3 SLI"
-                    price="479,89"
-                    priceOnCard="à vista ou até 10x de 49,99 sem juros"
+                    price="489,00"
+                    priceOnCard="à vista ou até 10x de 51,00 sem juros"
                     cca={460}
                     monthsOfWarranty={24}
                 />
@@ -36,8 +36,8 @@ export default function PriceCardsSection() {
                     titleImage="Bateria Zetta"
                     title="Zetta 60Ah"
                     subtitle="Bateria Z60D"
-                    price="379,89"
-                    priceOnCard="à vista ou até 10x de 39,99 sem juros"
+                    price="389,00"
+                    priceOnCard="à vista ou até 10x de 41,00 sem juros"
                     cca={400}
                     monthsOfWarranty={18}
                 />
