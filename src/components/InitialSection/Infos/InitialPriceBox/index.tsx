@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { STRAPI_URL } from "@/utils/strapi-url";
 import styles from "./styles.module.scss";
 
 interface InitialPriceBoxProps {
@@ -24,21 +23,13 @@ export default function InitialPriceBox({
       <div className={styles.batterysBox}>
         <img
           className={styles.moura}
-          src={
-            bateria1
-              ? `${STRAPI_URL}${bateria1}`
-              : "/images/moura-battery-1.webp"
-          }
+          src={bateria1 ? bateria1 : "/images/moura-battery-1.webp"}
           alt="Imagem Bateria"
           title="Bateria"
         />
         <img
           className={styles.kondor}
-          src={
-            bateria2
-              ? `${STRAPI_URL}${bateria2}`
-              : "/images/kondor-battery-1.webp"
-          }
+          src={bateria2 ? bateria2 : "/images/kondor-battery-1.webp"}
           alt="Imagem Bateria"
           title="Bateria"
         />

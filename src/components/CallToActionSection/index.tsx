@@ -23,8 +23,8 @@ export default function CallToActionSection() {
         const json = await response.json();
         setData(json.data);
         console.log(json.data);
-      } catch {
-        console.log("Erro ao buscar os dados");
+      } catch (error) {
+        console.log(error);
       }
     }
 
@@ -53,7 +53,7 @@ export default function CallToActionSection() {
           data.map((parceiro) => (
             <img
               key={parceiro.id}
-              src={`${STRAPI_URL}${parceiro.logo.url}`}
+              src={parceiro.logo.url}
               alt={parceiro.nome}
               title={parceiro.nome}
             />

@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { STRAPI_URL } from "@/utils/strapi-url";
 import styles from "./styles.module.scss";
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -14,7 +13,7 @@ export default function Header({ logo, localizacao, telefone }: HeaderProps) {
     <div className={styles.container}>
       <img
         className={styles.logo}
-        src={logo ? `${STRAPI_URL}${logo}` : "/images/logo.webp"}
+        src={logo ? logo : "/images/logo.webp"}
         alt="Logomarca Neto Baterias"
         title="Logomarca Neto Baterias"
       />

@@ -46,9 +46,7 @@ export default function Home() {
   useEffect(() => {
     async function getData() {
       try {
-        const response = await fetch(
-          `http://${STRAPI_URL}/api/conteudo?populate=*`
-        );
+        const response = await fetch(`${STRAPI_URL}/api/conteudo?populate=*`);
         const json = await response.json();
         setData(json.data);
         console.log(json.data);

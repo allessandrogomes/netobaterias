@@ -4,7 +4,6 @@ import styles from "./styles.module.scss";
 import { VscTools } from "react-icons/vsc";
 import { SlEnergy } from "react-icons/sl";
 import { LiaCertificateSolid } from "react-icons/lia";
-import { STRAPI_URL } from "@/utils/strapi-url";
 
 interface ICard {
   imagem: string;
@@ -38,7 +37,7 @@ export default function Card({
   return (
     <div className={styles.cardContainer}>
       <img
-        src={imagem ? `${STRAPI_URL}${imagem}` : "/images/fallback-battery.png"}
+        src={imagem ? imagem : "/images/fallback-battery.png"}
         alt={nome}
         title={modelo}
       />
