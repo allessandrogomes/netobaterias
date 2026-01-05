@@ -1,14 +1,48 @@
 /* eslint-disable @next/next/no-img-element */
-import styles from "./styles.module.scss"
+import { STRAPI_URL } from "@/utils/strapi-url";
+import styles from "./styles.module.scss";
 
-export default function InitialPriceBox() {
-    return (
-        <div className={styles.priceBox}>
-            <h3>Baterias a partir de: <br /><span className={styles.yellowSpan}>R$ 239,99</span></h3>
-            <div className={styles.batterysBox}>
-                <img className={styles.moura} src="/images/moura-battery-1.webp" alt="Imagem Bateria Moura" title="Bateria Moura" />
-                <img className={styles.kondor} src="/images/kondor-battery-1.webp" alt="Imagem Bateria Kondor" title="Bateria Kondor" />
-            </div>
-        </div>
-    )
+interface InitialPriceBoxProps {
+  apartirDe?: number;
+  bateria1?: string;
+  bateria2?: string;
+}
+
+export default function InitialPriceBox({
+  apartirDe,
+  bateria1,
+  bateria2,
+}: InitialPriceBoxProps) {
+  return (
+    <div className={styles.priceBox}>
+      <h3>
+        Baterias a partir de: <br />
+        <span className={styles.yellowSpan}>
+          R$ {apartirDe ? apartirDe : "239,99"}{" "}
+        </span>
+      </h3>
+      <div className={styles.batterysBox}>
+        <img
+          className={styles.moura}
+          src={
+            bateria1
+              ? `${STRAPI_URL}${bateria1}`
+              : "/images/moura-battery-1.webp"
+          }
+          alt="Imagem Bateria"
+          title="Bateria"
+        />
+        <img
+          className={styles.kondor}
+          src={
+            bateria2
+              ? `${STRAPI_URL}${bateria2}`
+              : "/images/kondor-battery-1.webp"
+          }
+          alt="Imagem Bateria"
+          title="Bateria"
+        />
+      </div>
+    </div>
+  );
 }
