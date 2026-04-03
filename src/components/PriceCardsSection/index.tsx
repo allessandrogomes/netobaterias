@@ -25,8 +25,8 @@ export default function PriceCardsSection() {
                     titleImage="Bateria Moura"
                     title="Moura 60Ah"
                     subtitle="Bateria M60GD MGE3 SLI"
-                    price="489,00"
-                    priceOnCard="à vista ou até 10x de 51,00 sem juros"
+                    price="499,00"
+                    priceOnCard="à vista ou até 10x de 51,90 sem juros"
                     cca={460}
                     monthsOfWarranty={24}
                 />
@@ -36,8 +36,8 @@ export default function PriceCardsSection() {
                     titleImage="Bateria Zetta"
                     title="Zetta 60Ah"
                     subtitle="Bateria Z60D"
-                    price="389,00"
-                    priceOnCard="à vista ou até 10x de 41,00 sem juros"
+                    price="399,00"
+                    priceOnCard="à vista ou até 10x de 41,90 sem juros"
                     cca={400}
                     monthsOfWarranty={18}
                 />
@@ -47,15 +47,15 @@ export default function PriceCardsSection() {
                     titleImage="Bateria Kondor"
                     title="Kondor 60Ah"
                     subtitle="Bateria F22 MPD"
-                    price="319,89"
-                    priceOnCard="à vista ou até 10x de 33,99 sem juros"
+                    price="329,00"
+                    priceOnCard="à vista ou até 10x de 34,90 sem juros"
                     cca={430}
                     monthsOfWarranty={12}
                 />
             </div>
 
             <div className={styles.contactBox}>
-                <h4>Precisa de outro modelo? <br/>Entre em contato conosco!</h4>
+                <h4>Precisa de outro modelo? <br />Entre em contato conosco!</h4>
                 <button onClick={handleContact}>Entrar em contato</button>
             </div>
         </section>
